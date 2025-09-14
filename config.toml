@@ -1,0 +1,29 @@
+baseURL = "https://example.com/"
+title = "DarMisk Grill"
+theme = "darmisk"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+sectionPagesMenu = "main"
+
+[languages]
+[languages.en]
+  languageName = "English"
+  weight = 1
+  contentDir = "content/en"
+[languages.ar]
+  languageName = "العربية"
+  weight = 2
+  contentDir = "content/ar"
+  direction = "rtl"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "menu"
+    name = "Menu"
+    url = "/menu/"
+    weight = 2

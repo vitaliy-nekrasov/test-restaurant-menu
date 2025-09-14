@@ -1,0 +1,17 @@
+@use './global';
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.menu-item {
+  width: 30%;
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 8px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

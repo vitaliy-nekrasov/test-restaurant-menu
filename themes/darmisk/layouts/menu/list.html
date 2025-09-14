@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }} - {{ i18n "menu" }}</title>
+  <link rel="stylesheet" href="/css/menu.css">
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div class="container">
+    <main>
+      <div class="category-filters">
+        <button data-filter="all">{{ i18n "all" }}</button>
+        <button data-filter="meals">{{ i18n "meals" }}</button>
+        <button data-filter="wraps">{{ i18n "wraps" }}</button>
+        <button data-filter="grills">{{ i18n "grills" }}</button>
+        <button data-filter="desserts">{{ i18n "desserts" }}</button>
+        <button data-filter="drinks">{{ i18n "drinks" }}</button>
+      </div>
+      {{ range .Pages }}
+        <section class="menu-category" data-category="{{ .Params.category }}">
+          <h2>{{ .Title }}</h2>
+          <div class="menu-items">
+            {{ range .Params.items }}
+              <div class="menu-item">
+                <img src="{{ .image }}" alt="{{ .name }}">
+                <div class="menu-info">
+                  <strong>{{ .name }}</strong>
+                  <p>{{ .description }}</p>
+                  <span class="price">£{{ .price }}</span>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </main>
+  </div>
+  {{ partial "footer.html" . }}
+  <script src="/js/filter.js"></script>
+  <script src="/js/menu.js"></script>
+</body>
+</html>

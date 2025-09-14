@@ -1,0 +1,44 @@
+<header>
+  <div class="container">
+    <div class="wrap">
+      <div class="menu">
+        <div class="logo">DarMisk GRILL</div>
+        <!-- Hamburger icon for mobile -->
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <!-- Mobile nav overlay -->
+        <div class="nav-wrapper">
+          <nav>
+            <div class="header-menu-items">
+              <a href="{{ "/" | relLangURL }}" class="{{ if eq .RelPermalink ("/" | relLangURL) }}active{{ end }}">
+                {{ i18n "home" | default "Home" }}
+              </a>
+              <a href="{{ "menu/" | relLangURL }}" class="{{ if eq .RelPermalink ("menu/" | relLangURL) }}active{{ end }}">
+                {{ i18n "menu" | default "Menu" }}
+              </a>
+            </div>
+            <div class="lang-switch">
+              {{ $currentLang := .Site.Language.Lang }}
+              {{ range .Site.Languages }}
+                {{ $lang := .Lang }}
+                {{ $translation := "" }}
+                {{ range $.Translations }}
+                  {{ if eq .Lang $lang }}
+                    {{ $translation = . }}
+                  {{ end }}
+                {{ end }}
+                <a href="{{ if $translation }}{{ $translation.RelPermalink }}{{ else }}{{ "/" | relLangURL }}{{ end }}"
+                   class="{{ if eq $lang $currentLang }}active{{ end }}">
+                  {{ $lang | upper }}
+                </a>
+              {{ end }}
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

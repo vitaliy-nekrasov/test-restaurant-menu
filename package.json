@@ -1,0 +1,19 @@
+{
+  "name": "test-restaurant-menu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass themes/darmisk/assets/css/style.scss static/css/style.css && sass themes/darmisk/assets/css/menu.scss static/css/menu.css",
+    "watch-css": "sass --watch themes/darmisk/assets/css/style.scss:static/css/style.css themes/darmisk/assets/css/menu.scss:static/css/menu.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.92.1"
+  }
+}
