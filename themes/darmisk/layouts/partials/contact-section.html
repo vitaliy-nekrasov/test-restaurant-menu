@@ -1,24 +1,21 @@
 <div class="contact-section">
   <div class="container">
     <div class="contact-section-wrap">
-      <h2 class="contact-section-wrap__title">Contact Us</h2>
+      <h2 class="contact-section-wrap__title">{{ i18n "contact_title" }}</h2>
       <div class="contact-section-wrap__content">
         <form name="contact" method="POST" data-netlify="true" class="contact-form">
           <input type="hidden" name="form-name" value="contact">
           <div class="form-row">
-            <input type="text" name="first-name" placeholder="First name" required>
-            <input type="text" name="last-name" placeholder="Last name" required>
+            <input type="text" name="first-name" placeholder="{{ i18n "contact_first_name" }}" required>
+            <input type="text" name="last-name" placeholder="{{ i18n "contact_last_name" }}" required>
           </div>
-          <input type="email" name="email" placeholder="Email address" required>
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button type="submit">Submit</button>
+          <input type="email" name="email" placeholder="{{ i18n "contact_email" }}" required>
+          <textarea name="message" placeholder="{{ i18n "contact_message" }}"></textarea>
+          <button type="submit">{{ i18n "contact_submit" }}</button>
         </form>
         <div class="contact-info">
           <div class="contact-info__details">
-            199 Lisburn Rd,<br>
-            Belfast<br>
-            BT9 7EJ<br>
-            +44 7123 456 789
+            {{ i18n "contact_address" | safeHTML }}
           </div>
           <iframe
             class="contact-info__map"

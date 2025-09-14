@@ -10,3 +10,57 @@ other = "وصفات تقليدية متوارثة عبر الأجيال"
 other = "حلال"
 [feature_halal_desc]
 other = "لحوم حلال معتمدة وأطباق نباتية متوفرة"
+[home_banner_title]
+other = "دارمسك <span>جريل</span>"
+[opening_hours_title]
+other = "ساعات العمل"
+[opening_hours_sun_tue]
+other = "الأحد - الثلاثاء"
+[opening_hours_sun_tue_time]
+other = "14:00 - 22:00"
+[opening_hours_wed_sat]
+other = "الأربعاء - السبت"
+[opening_hours_wed_sat_time]
+other = "14:00 - 23:00"
+[contact_title]
+other = "اتصل بنا"
+[contact_first_name]
+other = "الاسم الأول"
+[contact_last_name]
+other = "اسم العائلة"
+[contact_email]
+other = "البريد الإلكتروني"
+[contact_message]
+other = "رسالتك"
+[contact_submit]
+other = "إرسال"
+[contact_address]
+other = "199 طريق ليسبورن،<br>بلفاست<br>BT9 7EJ<br>+44 7123 456 789"
+[reviews_title]
+other = "المراجعات"
+[review_1_text]
+other = "“مديح رائع للغاية”"
+[review_1_name]
+other = "الاسم"
+[review_1_desc]
+other = "الوصف"
+[review_2_text]
+other = "“تعليق رائع بالفعل”"
+[review_2_name]
+other = "الاسم"
+[review_2_desc]
+other = "الوصف"
+[review_3_text]
+other = "“مراجعة متوهجة حقًا”"
+[review_3_name]
+other = "الاسم"
+[review_3_desc]
+other = "الوصف"
+[footer_copyright]
+other = "&copy; {{ .year }} مطعم دارمسك"
+[header_logo]
+other = "دارمسك <span>جريل</span>"
+[home]
+other = "الرئيسية"
+[menu]
+other = "القائمة"

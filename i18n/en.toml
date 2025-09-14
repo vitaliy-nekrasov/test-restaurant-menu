@@ -10,3 +10,57 @@ other = "Traditional recipes passed down through generations"
 other = "Halal"
 [feature_halal_desc]
 other = "Certified halal meat and vegetarian dishes available"
+[home_banner_title]
+other = "DarMisk <span>GRILL</span>"
+[opening_hours_title]
+other = "Opening Hours"
+[opening_hours_sun_tue]
+other = "Sunday - Tuesday"
+[opening_hours_sun_tue_time]
+other = "14:00 - 22:00"
+[opening_hours_wed_sat]
+other = "Wednesday - Saturday"
+[opening_hours_wed_sat_time]
+other = "14:00 - 23:00"
+[contact_title]
+other = "Contact Us"
+[contact_first_name]
+other = "First name"
+[contact_last_name]
+other = "Last name"
+[contact_email]
+other = "Email address"
+[contact_message]
+other = "Your message"
+[contact_submit]
+other = "Submit"
+[contact_address]
+other = "199 Lisburn Rd,<br>Belfast<br>BT9 7EJ<br>+44 7123 456 789"
+[reviews_title]
+other = "Reviews"
+[review_1_text]
+other = "“A terrific piece of praise”"
+[review_1_name]
+other = "Name"
+[review_1_desc]
+other = "Description"
+[review_2_text]
+other = "“A fantastic bit of feedback”"
+[review_2_name]
+other = "Name"
+[review_2_desc]
+other = "Description"
+[review_3_text]
+other = "“A genuinely glowing review”"
+[review_3_name]
+other = "Name"
+[review_3_desc]
+other = "Description"
+[footer_copyright]
+other = "&copy; {{ .year }} DarMisk Grill"
+[header_logo]
+other = "DarMisk <span>GRILL</span>"
+[home]
+other = "Home"
+[menu]
+other = "Menu"
