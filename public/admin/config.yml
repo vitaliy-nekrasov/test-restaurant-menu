@@ -13,8 +13,8 @@ collections:
     create: true
     slug: "{{slug}}"
     filter:
-      field: "title"
-      pattern: "^((?!_index).)*$"
+      field: "hidden"
+      value: false
     fields:
       - { name: "title", label: "Title" }
       - { name: "category", label: "Category", widget: "string" }
@@ -32,8 +32,8 @@ collections:
     create: true
     slug: "{{slug}}"
     filter:
-      field: "title"
-      pattern: "^((?!_index).)*$"
+      field: "hidden"
+      value: false
     fields:
       - { name: "title", label: "Title" }
       - { name: "category", label: "Category", widget: "string" }
@@ -61,6 +61,12 @@ collections:
     label: "Menu Index (AR)"
     files:
       - file: "content/ar/menu/_index.md"
+        label: "Menu Index"
+        name: "menu_index_ar"
+        fields:
+          - { name: "title", label: "Title" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "keywords", label: "Keywords", widget: "string" }
         label: "Menu Index"
         name: "menu_index_ar"
         fields:
