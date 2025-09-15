@@ -8,10 +8,31 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/en/menu/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Desserts</title>
+      <link>http://localhost:1313/en/menu/desserts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/menu/desserts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grills</title>
+      <link>http://localhost:1313/en/menu/grills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/menu/grills/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Meals</title>
       <link>http://localhost:1313/en/menu/meals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/menu/meals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wraps</title>
+      <link>http://localhost:1313/en/menu/wraps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/menu/wraps/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,8 +1,6 @@
 ---
-title: "وجبات"
-description: "اكتشف أشهى وجباتنا المحضرة بمكونات طازجة ووصفات أصيلة."
-keywords: "وجبات, طعام, مطعم, طازج, أصيل"
-category: "meals"
+title: "وجبات 2"
+category: "wraps"
 items:
   - name: "منتج"
     description: "وصف المنتج الأول"

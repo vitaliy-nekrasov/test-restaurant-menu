@@ -61,5 +61,41 @@
                 hreflang="ar"
                 href="http://localhost:1313/ar/menu/meals/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/ar/menu/wraps/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/menu/wraps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/wraps/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/menu/grills/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/menu/grills/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/grills/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/menu/desserts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/menu/desserts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/desserts/"
+                />
   </url>
 </urlset>

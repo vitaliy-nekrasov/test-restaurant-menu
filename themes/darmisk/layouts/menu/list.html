@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ .Site.Title }} - {{ i18n "menu" }}</title>
+  <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="keywords" content="{{ with .Params.keywords }}{{ . }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
   <link rel="stylesheet" href="/css/menu.css">
 </head>
 <body>
   {{ partial "header.html" . }}
-  <div class="container">
-    <main>
-      <div class="category-filters">
+  <main>
+    <div class="container">
+      <div class="category-filters" id="category-filters">
         <button data-filter="all">{{ i18n "all" }}</button>
         <button data-filter="meals">{{ i18n "meals" }}</button>
         <button data-filter="wraps">{{ i18n "wraps" }}</button>
@@ -17,25 +19,33 @@
         <button data-filter="desserts">{{ i18n "desserts" }}</button>
         <button data-filter="drinks">{{ i18n "drinks" }}</button>
       </div>
-      {{ range .Pages }}
-        <section class="menu-category" data-category="{{ .Params.category }}">
-          <h2>{{ .Title }}</h2>
-          <div class="menu-items">
-            {{ range .Params.items }}
-              <div class="menu-item">
-                <img src="{{ .image }}" alt="{{ .name }}">
-                <div class="menu-info">
-                  <strong>{{ .name }}</strong>
-                  <p>{{ .description }}</p>
-                  <span class="price">£{{ .price }}</span>
+    </div>
+    {{ $order := slice "meals" "wraps" "grills" "desserts" "drinks" }}
+    {{ $menuPages := where .Site.RegularPages "Section" "menu" }}
+    {{ range $cat := $order }}
+      {{ $pages := where $menuPages "Params.category" $cat }}
+      {{ if gt (len $pages) 0 }}
+        {{ $page := index $pages 0 }}
+        <div class="container">
+          <section class="menu-category" data-category="{{ $page.Params.category }}">
+            <h2 class="menu-title">{{ $page.Title }}</h2>
+            <div class="menu-items">
+              {{ range $page.Params.items }}
+                <div class="menu-item">
+                  <img src="{{ .image }}" alt="{{ .name }}">
+                  <div class="menu-info">
+                    <strong>{{ .name }}</strong>
+                    <p>{{ .description }}</p>
+                    <span class="price">£{{ .price }}</span>
+                  </div>
                 </div>
-              </div>
-            {{ end }}
-          </div>
-        </section>
+              {{ end }}
+            </div>
+          </section>
+        </div>
       {{ end }}
-    </main>
-  </div>
+    {{ end }}
+  </main>
   {{ partial "footer.html" . }}
   <script src="/js/filter.js"></script>
   <script src="/js/menu.js"></script>

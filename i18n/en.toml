@@ -64,3 +64,15 @@ other = "DarMisk <span>GRILL</span>"
 other = "Home"
 [menu]
 other = "Menu"
+[all]
+other = "All"
+[meals]
+other = "Meals"
+[wraps]
+other = "Wraps"
+[grills]
+other = "Grills"
+[desserts]
+other = "Desserts"
+[drinks]
+other = "Drinks"

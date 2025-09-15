@@ -216,22 +216,108 @@ html[lang=ar] {
   }
 }
 
-.menu-items {
+.category-filters {
+  grid-column: 1/5;
   display: flex;
+  gap: 8px;
   flex-wrap: wrap;
-  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  .category-filters {
+    grid-column: 2/12;
+  }
+}
+@media (min-width: 1025px) {
+  .category-filters {
+    padding: 60px 0;
+  }
+}
+.category-filters button {
+  background: transparent;
+  border: 1px solid #b88a2a;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  color: #b88a2a;
+}
+.category-filters button:hover, .category-filters button.active {
+  background: #b88a2a;
+  color: #fff;
+  border-color: #b88a2a;
+}
+
+.menu-category {
+  grid-column: 1/5;
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  .menu-category {
+    grid-column: 2/12;
+  }
+}
+@media (min-width: 1025px) {
+  .menu-category {
+    padding: 60px 0;
+  }
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+@media (min-width: 1025px) {
+  .menu-title {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+}
+@media (min-width: 992px) {
+  .menu-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1201px) {
+  .menu-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .menu-item {
-  width: 30%;
-  background: #f7f7f7;
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
+  background-color: #fff;
 }
-@media (max-width: 768px) {
-  .menu-item {
-    width: 100%;
-  }
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+}
+.menu-info p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=menu.css.map */

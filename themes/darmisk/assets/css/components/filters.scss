@@ -1,0 +1,32 @@
+.category-filters {
+  grid-column: 1/5;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  @media (min-width: 768px) {
+    grid-column: 2/12;
+  }
+  @media (min-width: 1025px) {
+    padding: 60px 0;
+  }
+
+  button {
+    background: transparent;
+    border: 1px solid #b88a2a;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    color: #b88a2a;
+    &:hover,
+    &.active {
+      background: #b88a2a;
+      color: #fff;
+      border-color: #b88a2a;
+    }
+  }
+}

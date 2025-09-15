@@ -26,6 +26,30 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/menu/desserts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/desserts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/menu/desserts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/menu/grills/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/grills/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/menu/grills/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/menu/meals/</loc>
     <xhtml:link
                 rel="alternate"
@@ -60,6 +84,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/menu/wraps/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/wraps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/menu/wraps/"
                 />
   </url>
 </urlset>
