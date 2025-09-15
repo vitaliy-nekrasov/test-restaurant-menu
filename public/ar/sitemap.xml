@@ -2,100 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ar/categories/</loc>
+    <loc>https://example.com/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://example.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://example.com/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/</loc>
+    <loc>https://example.com/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://example.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://example.com/ar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/</loc>
+    <loc>https://example.com/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://example.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://example.com/ar/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/menu/</loc>
+    <loc>https://example.com/ar/menu/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/menu/"
+                href="https://example.com/en/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/menu/"
+                href="https://example.com/ar/menu/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/menu/meals/</loc>
+    <loc>https://example.com/ar/menu/meals/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/menu/meals/"
+                href="https://example.com/en/menu/meals/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/menu/meals/"
+                href="https://example.com/ar/menu/meals/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/menu/wraps/</loc>
+    <loc>https://example.com/ar/menu/wraps/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/menu/wraps/"
+                href="https://example.com/en/menu/wraps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/menu/wraps/"
+                href="https://example.com/ar/menu/wraps/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/menu/grills/</loc>
+    <loc>https://example.com/ar/menu/grills/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/menu/grills/"
+                href="https://example.com/en/menu/grills/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/menu/grills/"
+                href="https://example.com/ar/menu/grills/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/menu/desserts/</loc>
+    <loc>https://example.com/ar/menu/desserts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/menu/desserts/"
+                href="https://example.com/en/menu/desserts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/menu/desserts/"
+                href="https://example.com/ar/menu/desserts/"
                 />
   </url>
 </urlset>
