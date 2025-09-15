@@ -12,11 +12,13 @@ collections:
     folder: "content/en/menu"
     create: true
     slug: "{{slug}}"
+    filter:
+      field: "title"
+      value: "_index"
+      exclude: true
     fields:
       - { name: "title", label: "Title" }
-      - { name: "description", label: "Description", widget: "text" }
-      - { name: "keywords", label: "Keywords", widget: "string" }
-      - { name: "category", label: "Category", widget: "string", required: false }
+      - { name: "category", label: "Category", widget: "string" }
       - { name: "items", label: "Items", widget: "list", fields: [
           { name: "name", label: "Name" },
           { name: "description", label: "Description" },
@@ -30,11 +32,13 @@ collections:
     folder: "content/ar/menu"
     create: true
     slug: "{{slug}}"
+    filter:
+      field: "title"
+      value: "_index"
+      exclude: true
     fields:
       - { name: "title", label: "Title" }
-      - { name: "description", label: "Description", widget: "text" }
-      - { name: "keywords", label: "Keywords", widget: "string" }
-      - { name: "category", label: "Category", widget: "string", required: false }
+      - { name: "category", label: "Category", widget: "string" }
       - { name: "items", label: "Items", widget: "list", fields: [
           { name: "name", label: "Name" },
           { name: "description", label: "Description" },
