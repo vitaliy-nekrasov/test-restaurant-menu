@@ -67,9 +67,3 @@ collections:
           - { name: "title", label: "Title" }
           - { name: "description", label: "Description", widget: "text" }
           - { name: "keywords", label: "Keywords", widget: "string" }
-        label: "Menu Index"
-        name: "menu_index_ar"
-        fields:
-          - { name: "title", label: "Title" }
-          - { name: "description", label: "Description", widget: "text" }
-          - { name: "keywords", label: "Keywords", widget: "string" }
