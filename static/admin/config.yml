@@ -6,7 +6,7 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  # EN menu pages
+  # EN menu pages (excluding _index.md)
   - name: "en_menu"
     label: "Menu (EN)"
     folder: "content/en/menu"
@@ -14,8 +14,7 @@ collections:
     slug: "{{slug}}"
     filter:
       field: "title"
-      value: "_index"
-      exclude: true
+      pattern: "^((?!_index).)*$"
     fields:
       - { name: "title", label: "Title" }
       - { name: "category", label: "Category", widget: "string" }
@@ -26,7 +25,7 @@ collections:
           { name: "image", label: "Image", widget: "image" }
         ], required: false }
 
-  # AR menu pages
+  # AR menu pages (excluding _index.md)
   - name: "ar_menu"
     label: "Menu (AR)"
     folder: "content/ar/menu"
@@ -34,8 +33,7 @@ collections:
     slug: "{{slug}}"
     filter:
       field: "title"
-      value: "_index"
-      exclude: true
+      pattern: "^((?!_index).)*$"
     fields:
       - { name: "title", label: "Title" }
       - { name: "category", label: "Category", widget: "string" }
@@ -46,7 +44,7 @@ collections:
           { name: "image", label: "Image", widget: "image" }
         ], required: false }
 
-  # EN menu index page
+  # EN menu index page (_index.md only)
   - name: "en_menu_index"
     label: "Menu Index (EN)"
     files:
@@ -58,7 +56,7 @@ collections:
           - { name: "description", label: "Description", widget: "text" }
           - { name: "keywords", label: "Keywords", widget: "string" }
 
-  # AR menu index page
+  # AR menu index page (_index.md only)
   - name: "ar_menu_index"
     label: "Menu Index (AR)"
     files:
@@ -67,5 +65,7 @@ collections:
         name: "menu_index_ar"
         fields:
           - { name: "title", label: "Title" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "keywords", label: "Keywords", widget: "string" }
           - { name: "description", label: "Description", widget: "text" }
           - { name: "keywords", label: "Keywords", widget: "string" }
