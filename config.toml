@@ -27,3 +27,6 @@ sectionPagesMenu = "main"
     name = "Menu"
     url = "/menu/"
     weight = 2
+
+[params]
+  cms_admin_path = "/admin/"

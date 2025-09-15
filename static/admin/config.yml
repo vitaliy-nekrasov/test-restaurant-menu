@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  # EN menu pages
+  - name: "en_menu"
+    label: "Menu (EN)"
+    folder: "content/en/menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "keywords", label: "Keywords", widget: "string" }
+      - { name: "category", label: "Category", widget: "string", required: false }
+      - { name: "items", label: "Items", widget: "list", fields: [
+          { name: "name", label: "Name" },
+          { name: "description", label: "Description" },
+          { name: "price", label: "Price" },
+          { name: "image", label: "Image", widget: "image" }
+        ], required: false }
+
+  # AR menu pages
+  - name: "ar_menu"
+    label: "Menu (AR)"
+    folder: "content/ar/menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "keywords", label: "Keywords", widget: "string" }
+      - { name: "category", label: "Category", widget: "string", required: false }
+      - { name: "items", label: "Items", widget: "list", fields: [
+          { name: "name", label: "Name" },
+          { name: "description", label: "Description" },
+          { name: "price", label: "Price" },
+          { name: "image", label: "Image", widget: "image" }
+        ], required: false }
+
+  # EN menu index page
+  - name: "en_menu_index"
+    label: "Menu Index (EN)"
+    files:
+      - file: "content/en/menu/_index.md"
+        label: "Menu Index"
+        name: "menu_index_en"
+        fields:
+          - { name: "title", label: "Title" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "keywords", label: "Keywords", widget: "string" }
+
+  # AR menu index page
+  - name: "ar_menu_index"
+    label: "Menu Index (AR)"
+    files:
+      - file: "content/ar/menu/_index.md"
+        label: "Menu Index"
+        name: "menu_index_ar"
+        fields:
+          - { name: "title", label: "Title" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "keywords", label: "Keywords", widget: "string" }
