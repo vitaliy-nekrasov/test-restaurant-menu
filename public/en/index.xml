@@ -15,6 +15,13 @@
       <description></description>
     </item>
     <item>
+      <title>Drinks</title>
+      <link>http://localhost:1313/en/menu/drinks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/menu/drinks/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Grills</title>
       <link>http://localhost:1313/en/menu/grills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
