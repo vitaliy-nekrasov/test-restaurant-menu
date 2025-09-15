@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DarMisk Grill</title>
-    <link>https://example.com/ar/</link>
+    <link>http://localhost:1313/ar/</link>
     <description>Recent content on DarMisk Grill</description>
     <generator>Hugo</generator>
     <language>ar</language>
-    <atom:link href="https://example.com/ar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>وجبات</title>
-      <link>https://example.com/ar/menu/meals/</link>
+      <link>http://localhost:1313/ar/menu/meals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ar/menu/meals/</guid>
+      <guid>http://localhost:1313/ar/menu/meals/</guid>
       <description></description>
     </item>
     <item>
       <title>وجبات 2</title>
-      <link>https://example.com/ar/menu/wraps/</link>
+      <link>http://localhost:1313/ar/menu/wraps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ar/menu/wraps/</guid>
+      <guid>http://localhost:1313/ar/menu/wraps/</guid>
       <description></description>
     </item>
     <item>
       <title>وجبات 3</title>
-      <link>https://example.com/ar/menu/grills/</link>
+      <link>http://localhost:1313/ar/menu/grills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ar/menu/grills/</guid>
+      <guid>http://localhost:1313/ar/menu/grills/</guid>
       <description></description>
     </item>
     <item>
       <title>وجبات 4</title>
-      <link>https://example.com/ar/menu/desserts/</link>
+      <link>http://localhost:1313/ar/menu/desserts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ar/menu/desserts/</guid>
+      <guid>http://localhost:1313/ar/menu/desserts/</guid>
       <description></description>
     </item>
   </channel>

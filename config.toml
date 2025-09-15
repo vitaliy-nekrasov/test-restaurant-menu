@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://animated-marzipan-fe5d97.netlify.app/"
 title = "DarMisk Grill"
 theme = "darmisk"
 defaultContentLanguage = "en"
