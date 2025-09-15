@@ -12,6 +12,9 @@ collections:
     folder: "content/en/menu"
     create: true
     slug: "{{slug}}"
+    filter:
+      field: "is_index"
+      value: false
     fields:
       - { name: "title", label: "Title" }
       - { name: "category", label: "Category", widget: "string" }
@@ -28,6 +31,9 @@ collections:
     folder: "content/ar/menu"
     create: true
     slug: "{{slug}}"
+    filter:
+      field: "is_index"
+      value: false
     fields:
       - { name: "title", label: "Title" }
       - { name: "category", label: "Category", widget: "string" }

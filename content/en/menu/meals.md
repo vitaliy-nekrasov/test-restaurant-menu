@@ -1,7 +1,6 @@
 ---
 title: "Meals"
-description: "Discover our delicious meals, prepared with fresh ingredients and authentic recipes."
-keywords: "meals, food, restaurant, fresh, authentic"
+is_index: false
 category: "meals"
 items:
   - name: "Meals Product"

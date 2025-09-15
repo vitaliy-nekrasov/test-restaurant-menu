@@ -1,6 +1,7 @@
 ---
 title: "Wraps"
 category: "wraps"
+is_index: false
 items:
   - name: "Wraps Product"
     description: "Description of first product"

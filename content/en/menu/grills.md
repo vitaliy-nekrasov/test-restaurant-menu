@@ -1,6 +1,7 @@
 ---
 title: "Grills"
 category: "grills"
+is_index: false
 items:
   - name: "Grills Product"
     description: "Description of first product"

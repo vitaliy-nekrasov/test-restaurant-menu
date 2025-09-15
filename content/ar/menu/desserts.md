@@ -1,6 +1,7 @@
 ---
 title: "وجبات 4"
 category: "desserts"
+is_index: false
 items:
   - name: "منتج"
     description: "وصف المنتج الأول"

@@ -1,6 +1,7 @@
 ---
 title: "وجبات 3"
 category: "grills"
+is_index: false
 items:
   - name: "منتج"
     description: "وصف المنتج الأول"

@@ -1,6 +1,7 @@
 ---
 title: "وجبات 2"
 category: "wraps"
+is_index: false
 items:
   - name: "منتج"
     description: "وصف المنتج الأول"

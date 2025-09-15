@@ -1,7 +1,6 @@
 ---
 title: "وجبات"
-description: "اكتشف أشهى وجباتنا المحضرة بمكونات طازجة ووصفات أصيلة."
-keywords: "وجبات, طعام, مطعم, طازج, أصيل"
+is_index: false
 category: "meals"
 items:
   - name: "منتج"
