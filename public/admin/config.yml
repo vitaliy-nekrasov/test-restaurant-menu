@@ -67,5 +67,3 @@ collections:
           - { name: "title", label: "Title" }
           - { name: "description", label: "Description", widget: "text" }
           - { name: "keywords", label: "Keywords", widget: "string" }
-          - { name: "description", label: "Description", widget: "text" }
-          - { name: "keywords", label: "Keywords", widget: "string" }
