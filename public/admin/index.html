@@ -3,20 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Content Manager</title>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <div id="nc-root"></div>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
           if (!user) {
-            window.netlifyIdentity.open();
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
           }
+        });
+        window.netlifyIdentity.on("logout", () => {
+          document.location.href = "/";
         });
         window.netlifyIdentity.init();
       }
     </script>
+    
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </body>
 </html>
