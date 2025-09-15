@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "sass themes/darmisk/assets/css/style.scss static/css/style.css && sass themes/darmisk/assets/css/menu.scss static/css/menu.css",
+    "minify-css": "postcss static/css/style.css -u cssnano -o public/css/style.css && postcss static/css/menu.css -u cssnano -o public/css/menu.css",
     "watch-css": "sass --watch themes/darmisk/assets/css/style.scss:static/css/style.css themes/darmisk/assets/css/menu.scss:static/css/menu.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
     "autoprefixer": "^10.4.21",
     "postcss-cli": "^11.0.1",
     "sass": "^1.92.1"
+  },
+  "devDependencies": {
+    "cssnano": "^6.1.2"
   }
 }
