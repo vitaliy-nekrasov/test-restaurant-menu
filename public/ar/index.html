@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link rel="stylesheet" href="/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <header>
@@ -111,7 +112,7 @@
     <div class="contact-section-wrap">
       <h2 class="contact-section-wrap__title">اتصل بنا</h2>
       <div class="contact-section-wrap__content">
-        <form name="contact" method="POST" data-netlify="true" class="contact-form">
+        <form name="contact" netlify method="POST" data-netlify="true" class="contact-form">
           <input type="hidden" name="form-name" value="contact">
           <div class="form-row">
             <input type="text" name="first-name" placeholder="الاسم الأول" required>
@@ -185,6 +186,17 @@
     </div>
   </div>
 </footer>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
   <script src="/js/menu.js"></script>
 </body>

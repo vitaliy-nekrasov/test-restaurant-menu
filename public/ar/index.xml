@@ -15,6 +15,13 @@
       <description></description>
     </item>
     <item>
+      <title>وجبات</title>
+      <link>http://localhost:1313/ar/menu/%D9%88%D8%AC%D8%A8%D8%A7%D8%AA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ar/menu/%D9%88%D8%AC%D8%A8%D8%A7%D8%AA/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>وجبات 2</title>
       <link>http://localhost:1313/ar/menu/wraps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

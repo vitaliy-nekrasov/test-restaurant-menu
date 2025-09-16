@@ -38,6 +38,8 @@
                 href="http://localhost:1313/en/menu/desserts/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/menu/drinks/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/menu/grills/</loc>
     <xhtml:link
                 rel="alternate"
